@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="push_swap" targetName="push_swap.h" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed0ac736-fcd9-46f5-a092-3ba1e98b3954" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/push_swap" />
+  </component>
+  <component name="ProjectId" id="1YcPQOkXH7zElck4KAnW3oUtPyt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+  </component>
+  <component name="RunManager">
+    <configuration name="push_swap.h" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="4 5 6 7 &quot;4&quot;" PASS_PARENT_ENVS_2="true" PROJECT_NAME="push_swap" TARGET_NAME="push_swap.h" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="push_swap" RUN_TARGET_NAME="push_swap.h">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed0ac736-fcd9-46f5-a092-3ba1e98b3954" name="Default Changelist" comment="" />
+      <created>1583238892410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583238892410</updated>
+      <workItem from="1583238894229" duration="1353000" />
+      <workItem from="1583352820558" duration="179000" />
+      <workItem from="1584022527854" duration="885000" />
+      <workItem from="1585043300400" duration="511000" />
+      <workItem from="1585072927589" duration="1339000" />
+      <workItem from="1585074756355" duration="1949000" />
+      <workItem from="1585129375234" duration="52000" />
+      <workItem from="1585129446660" duration="260000" />
+      <workItem from="1585129730009" duration="145000" />
+      <workItem from="1585129918871" duration="1135000" />
+      <workItem from="1585131189758" duration="18492000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="319" y="103" key="#Custom_Plugin_Repositories" timestamp="1585129476617">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="319" y="103" key="#Custom_Plugin_Repositories/0.23.1440.831@0.23.1440.831" timestamp="1585129476617" />
+    <state x="303" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585219780756">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="303" y="49" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.828@0.23.1440.828" timestamp="1585219780756" />
+    <state x="184" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.831@0.23.1440.831" timestamp="1585144368023" />
+    <state x="450" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585073420966">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="450" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.831@0.23.1440.831" timestamp="1585073420966" />
+    <state width="1398" height="120" key="GridCell.Tab.0.bottom" timestamp="1585219764863">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="120" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1585219764863" />
+    <state width="1398" height="196" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1585144350365" />
+    <state width="1398" height="120" key="GridCell.Tab.0.center" timestamp="1585219764862">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="120" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1585219764862" />
+    <state width="1398" height="196" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1585144350365" />
+    <state width="1398" height="120" key="GridCell.Tab.0.left" timestamp="1585219764862">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="120" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1585219764862" />
+    <state width="1398" height="196" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1585144350364" />
+    <state width="1398" height="120" key="GridCell.Tab.0.right" timestamp="1585219764862">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="120" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1585219764862" />
+    <state width="1398" height="196" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1585144350365" />
+    <state width="1398" height="232" key="GridCell.Tab.1.bottom" timestamp="1585219607468">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="232" key="GridCell.Tab.1.bottom/0.23.1440.828@0.23.1440.828" timestamp="1585219607468" />
+    <state width="1398" height="188" key="GridCell.Tab.1.bottom/0.23.1440.831@0.23.1440.831" timestamp="1585138049213" />
+    <state width="1398" height="232" key="GridCell.Tab.1.center" timestamp="1585219607468">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="232" key="GridCell.Tab.1.center/0.23.1440.828@0.23.1440.828" timestamp="1585219607468" />
+    <state width="1398" height="188" key="GridCell.Tab.1.center/0.23.1440.831@0.23.1440.831" timestamp="1585138049213" />
+    <state width="1398" height="232" key="GridCell.Tab.1.left" timestamp="1585219607467">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="232" key="GridCell.Tab.1.left/0.23.1440.828@0.23.1440.828" timestamp="1585219607467" />
+    <state width="1398" height="188" key="GridCell.Tab.1.left/0.23.1440.831@0.23.1440.831" timestamp="1585138049212" />
+    <state width="1398" height="232" key="GridCell.Tab.1.right" timestamp="1585219607468">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="232" key="GridCell.Tab.1.right/0.23.1440.828@0.23.1440.828" timestamp="1585219607468" />
+    <state width="1398" height="188" key="GridCell.Tab.1.right/0.23.1440.831@0.23.1440.831" timestamp="1585138049213" />
+    <state x="221" y="77" key="SettingsEditor" timestamp="1585131146705">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="221" y="77" key="SettingsEditor/0.23.1440.831@0.23.1440.831" timestamp="1585131146705" />
+    <state x="385" y="177" width="670" height="674" key="search.everywhere.popup" timestamp="1585161710939">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="385" y="177" width="670" height="674" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1585161710939" />
+    <state x="385" y="178" width="670" height="676" key="search.everywhere.popup/0.23.1440.831@0.23.1440.831" timestamp="1585136552818" />
+  </component>
+</project>
