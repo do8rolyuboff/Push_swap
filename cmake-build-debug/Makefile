@@ -258,6 +258,114 @@ ft_putendl.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_putendl.c.s
 .PHONY : ft_putendl.c.s
 
+ft_strcat.o: ft_strcat.c.o
+
+.PHONY : ft_strcat.o
+
+# target to build an object file
+ft_strcat.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strcat.c.o
+.PHONY : ft_strcat.c.o
+
+ft_strcat.i: ft_strcat.c.i
+
+.PHONY : ft_strcat.i
+
+# target to preprocess a source file
+ft_strcat.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strcat.c.i
+.PHONY : ft_strcat.c.i
+
+ft_strcat.s: ft_strcat.c.s
+
+.PHONY : ft_strcat.s
+
+# target to generate assembly for a file
+ft_strcat.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strcat.c.s
+.PHONY : ft_strcat.c.s
+
+ft_strchr.o: ft_strchr.c.o
+
+.PHONY : ft_strchr.o
+
+# target to build an object file
+ft_strchr.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strchr.c.o
+.PHONY : ft_strchr.c.o
+
+ft_strchr.i: ft_strchr.c.i
+
+.PHONY : ft_strchr.i
+
+# target to preprocess a source file
+ft_strchr.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strchr.c.i
+.PHONY : ft_strchr.c.i
+
+ft_strchr.s: ft_strchr.c.s
+
+.PHONY : ft_strchr.s
+
+# target to generate assembly for a file
+ft_strchr.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strchr.c.s
+.PHONY : ft_strchr.c.s
+
+ft_strclr.o: ft_strclr.c.o
+
+.PHONY : ft_strclr.o
+
+# target to build an object file
+ft_strclr.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strclr.c.o
+.PHONY : ft_strclr.c.o
+
+ft_strclr.i: ft_strclr.c.i
+
+.PHONY : ft_strclr.i
+
+# target to preprocess a source file
+ft_strclr.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strclr.c.i
+.PHONY : ft_strclr.c.i
+
+ft_strclr.s: ft_strclr.c.s
+
+.PHONY : ft_strclr.s
+
+# target to generate assembly for a file
+ft_strclr.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strclr.c.s
+.PHONY : ft_strclr.c.s
+
+ft_strcpy.o: ft_strcpy.c.o
+
+.PHONY : ft_strcpy.o
+
+# target to build an object file
+ft_strcpy.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strcpy.c.o
+.PHONY : ft_strcpy.c.o
+
+ft_strcpy.i: ft_strcpy.c.i
+
+.PHONY : ft_strcpy.i
+
+# target to preprocess a source file
+ft_strcpy.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strcpy.c.i
+.PHONY : ft_strcpy.c.i
+
+ft_strcpy.s: ft_strcpy.c.s
+
+.PHONY : ft_strcpy.s
+
+# target to generate assembly for a file
+ft_strcpy.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strcpy.c.s
+.PHONY : ft_strcpy.c.s
+
 ft_strdel.o: ft_strdel.c.o
 
 .PHONY : ft_strdel.o
@@ -285,6 +393,87 @@ ft_strdel.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strdel.c.s
 .PHONY : ft_strdel.c.s
 
+ft_strjoin.o: ft_strjoin.c.o
+
+.PHONY : ft_strjoin.o
+
+# target to build an object file
+ft_strjoin.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strjoin.c.o
+.PHONY : ft_strjoin.c.o
+
+ft_strjoin.i: ft_strjoin.c.i
+
+.PHONY : ft_strjoin.i
+
+# target to preprocess a source file
+ft_strjoin.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strjoin.c.i
+.PHONY : ft_strjoin.c.i
+
+ft_strjoin.s: ft_strjoin.c.s
+
+.PHONY : ft_strjoin.s
+
+# target to generate assembly for a file
+ft_strjoin.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strjoin.c.s
+.PHONY : ft_strjoin.c.s
+
+ft_strlen.o: ft_strlen.c.o
+
+.PHONY : ft_strlen.o
+
+# target to build an object file
+ft_strlen.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strlen.c.o
+.PHONY : ft_strlen.c.o
+
+ft_strlen.i: ft_strlen.c.i
+
+.PHONY : ft_strlen.i
+
+# target to preprocess a source file
+ft_strlen.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strlen.c.i
+.PHONY : ft_strlen.c.i
+
+ft_strlen.s: ft_strlen.c.s
+
+.PHONY : ft_strlen.s
+
+# target to generate assembly for a file
+ft_strlen.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strlen.c.s
+.PHONY : ft_strlen.c.s
+
+ft_strnew.o: ft_strnew.c.o
+
+.PHONY : ft_strnew.o
+
+# target to build an object file
+ft_strnew.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strnew.c.o
+.PHONY : ft_strnew.c.o
+
+ft_strnew.i: ft_strnew.c.i
+
+.PHONY : ft_strnew.i
+
+# target to preprocess a source file
+ft_strnew.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strnew.c.i
+.PHONY : ft_strnew.c.i
+
+ft_strnew.s: ft_strnew.c.s
+
+.PHONY : ft_strnew.s
+
+# target to generate assembly for a file
+ft_strnew.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strnew.c.s
+.PHONY : ft_strnew.c.s
+
 ft_strsplit.o: ft_strsplit.c.o
 
 .PHONY : ft_strsplit.o
@@ -311,6 +500,60 @@ ft_strsplit.s: ft_strsplit.c.s
 ft_strsplit.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strsplit.c.s
 .PHONY : ft_strsplit.c.s
+
+ft_strsub.o: ft_strsub.c.o
+
+.PHONY : ft_strsub.o
+
+# target to build an object file
+ft_strsub.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strsub.c.o
+.PHONY : ft_strsub.c.o
+
+ft_strsub.i: ft_strsub.c.i
+
+.PHONY : ft_strsub.i
+
+# target to preprocess a source file
+ft_strsub.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strsub.c.i
+.PHONY : ft_strsub.c.i
+
+ft_strsub.s: ft_strsub.c.s
+
+.PHONY : ft_strsub.s
+
+# target to generate assembly for a file
+ft_strsub.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/ft_strsub.c.s
+.PHONY : ft_strsub.c.s
+
+get_next_line.o: get_next_line.c.o
+
+.PHONY : get_next_line.o
+
+# target to build an object file
+get_next_line.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/get_next_line.c.o
+.PHONY : get_next_line.c.o
+
+get_next_line.i: get_next_line.c.i
+
+.PHONY : get_next_line.i
+
+# target to preprocess a source file
+get_next_line.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/get_next_line.c.i
+.PHONY : get_next_line.c.i
+
+get_next_line.s: get_next_line.c.s
+
+.PHONY : get_next_line.s
+
+# target to generate assembly for a file
+get_next_line.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/get_next_line.c.s
+.PHONY : get_next_line.c.s
 
 init_stack.o: init_stack.c.o
 
@@ -366,6 +609,33 @@ isdigit.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/isdigit.c.s
 .PHONY : isdigit.c.s
 
+sorted.o: sorted.c.o
+
+.PHONY : sorted.o
+
+# target to build an object file
+sorted.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/sorted.c.o
+.PHONY : sorted.c.o
+
+sorted.i: sorted.c.i
+
+.PHONY : sorted.i
+
+# target to preprocess a source file
+sorted.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/sorted.c.i
+.PHONY : sorted.c.i
+
+sorted.s: sorted.c.s
+
+.PHONY : sorted.s
+
+# target to generate assembly for a file
+sorted.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.h.dir/build.make CMakeFiles/push_swap.h.dir/sorted.c.s
+.PHONY : sorted.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -390,18 +660,48 @@ help:
 	@echo "... ft_putendl.o"
 	@echo "... ft_putendl.i"
 	@echo "... ft_putendl.s"
+	@echo "... ft_strcat.o"
+	@echo "... ft_strcat.i"
+	@echo "... ft_strcat.s"
+	@echo "... ft_strchr.o"
+	@echo "... ft_strchr.i"
+	@echo "... ft_strchr.s"
+	@echo "... ft_strclr.o"
+	@echo "... ft_strclr.i"
+	@echo "... ft_strclr.s"
+	@echo "... ft_strcpy.o"
+	@echo "... ft_strcpy.i"
+	@echo "... ft_strcpy.s"
 	@echo "... ft_strdel.o"
 	@echo "... ft_strdel.i"
 	@echo "... ft_strdel.s"
+	@echo "... ft_strjoin.o"
+	@echo "... ft_strjoin.i"
+	@echo "... ft_strjoin.s"
+	@echo "... ft_strlen.o"
+	@echo "... ft_strlen.i"
+	@echo "... ft_strlen.s"
+	@echo "... ft_strnew.o"
+	@echo "... ft_strnew.i"
+	@echo "... ft_strnew.s"
 	@echo "... ft_strsplit.o"
 	@echo "... ft_strsplit.i"
 	@echo "... ft_strsplit.s"
+	@echo "... ft_strsub.o"
+	@echo "... ft_strsub.i"
+	@echo "... ft_strsub.s"
+	@echo "... get_next_line.o"
+	@echo "... get_next_line.i"
+	@echo "... get_next_line.s"
 	@echo "... init_stack.o"
 	@echo "... init_stack.i"
 	@echo "... init_stack.s"
 	@echo "... isdigit.o"
 	@echo "... isdigit.i"
 	@echo "... isdigit.s"
+	@echo "... sorted.o"
+	@echo "... sorted.i"
+	@echo "... sorted.s"
 .PHONY : help
 
 

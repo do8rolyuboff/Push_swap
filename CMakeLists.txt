@@ -9,7 +9,18 @@ add_executable(push_swap.h
         free_arg.c
         ft_atol.c
         ft_putendl.c
+        ft_strcat.c
+        ft_strchr.c
+        ft_strclr.c
+        ft_strcpy.c
         ft_strdel.c
+        ft_strjoin.c
+        ft_strlen.c
+        ft_strnew.c
         ft_strsplit.c
+        ft_strsub.c
+        get_next_line.c
+        init_stack.c
         isdigit.c
-        init_stack.c)
+        sorted.c
+        )

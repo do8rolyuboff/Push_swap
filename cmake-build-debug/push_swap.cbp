@@ -93,16 +93,46 @@
 		<Unit filename="/Users/_dobrolubov/42/push_swap/ft_putendl.c">
 			<Option target="push_swap.h"/>
 		</Unit>
+		<Unit filename="/Users/_dobrolubov/42/push_swap/ft_strcat.c">
+			<Option target="push_swap.h"/>
+		</Unit>
+		<Unit filename="/Users/_dobrolubov/42/push_swap/ft_strchr.c">
+			<Option target="push_swap.h"/>
+		</Unit>
+		<Unit filename="/Users/_dobrolubov/42/push_swap/ft_strclr.c">
+			<Option target="push_swap.h"/>
+		</Unit>
+		<Unit filename="/Users/_dobrolubov/42/push_swap/ft_strcpy.c">
+			<Option target="push_swap.h"/>
+		</Unit>
 		<Unit filename="/Users/_dobrolubov/42/push_swap/ft_strdel.c">
 			<Option target="push_swap.h"/>
 		</Unit>
+		<Unit filename="/Users/_dobrolubov/42/push_swap/ft_strjoin.c">
+			<Option target="push_swap.h"/>
+		</Unit>
+		<Unit filename="/Users/_dobrolubov/42/push_swap/ft_strlen.c">
+			<Option target="push_swap.h"/>
+		</Unit>
+		<Unit filename="/Users/_dobrolubov/42/push_swap/ft_strnew.c">
+			<Option target="push_swap.h"/>
+		</Unit>
 		<Unit filename="/Users/_dobrolubov/42/push_swap/ft_strsplit.c">
+			<Option target="push_swap.h"/>
+		</Unit>
+		<Unit filename="/Users/_dobrolubov/42/push_swap/ft_strsub.c">
+			<Option target="push_swap.h"/>
+		</Unit>
+		<Unit filename="/Users/_dobrolubov/42/push_swap/get_next_line.c">
 			<Option target="push_swap.h"/>
 		</Unit>
 		<Unit filename="/Users/_dobrolubov/42/push_swap/init_stack.c">
 			<Option target="push_swap.h"/>
 		</Unit>
 		<Unit filename="/Users/_dobrolubov/42/push_swap/isdigit.c">
+			<Option target="push_swap.h"/>
+		</Unit>
+		<Unit filename="/Users/_dobrolubov/42/push_swap/sorted.c">
 			<Option target="push_swap.h"/>
 		</Unit>
 		<Unit filename="/Users/_dobrolubov/42/push_swap/CMakeLists.txt">

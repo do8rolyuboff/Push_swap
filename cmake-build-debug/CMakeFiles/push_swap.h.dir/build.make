@@ -122,9 +122,61 @@ CMakeFiles/push_swap.h.dir/ft_putendl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/ft_putendl.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/ft_putendl.c -o CMakeFiles/push_swap.h.dir/ft_putendl.c.s
 
+CMakeFiles/push_swap.h.dir/ft_strcat.c.o: CMakeFiles/push_swap.h.dir/flags.make
+CMakeFiles/push_swap.h.dir/ft_strcat.c.o: ../ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap.h.dir/ft_strcat.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.h.dir/ft_strcat.c.o   -c /Users/_dobrolubov/42/push_swap/ft_strcat.c
+
+CMakeFiles/push_swap.h.dir/ft_strcat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.h.dir/ft_strcat.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/_dobrolubov/42/push_swap/ft_strcat.c > CMakeFiles/push_swap.h.dir/ft_strcat.c.i
+
+CMakeFiles/push_swap.h.dir/ft_strcat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/ft_strcat.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/ft_strcat.c -o CMakeFiles/push_swap.h.dir/ft_strcat.c.s
+
+CMakeFiles/push_swap.h.dir/ft_strchr.c.o: CMakeFiles/push_swap.h.dir/flags.make
+CMakeFiles/push_swap.h.dir/ft_strchr.c.o: ../ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.h.dir/ft_strchr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.h.dir/ft_strchr.c.o   -c /Users/_dobrolubov/42/push_swap/ft_strchr.c
+
+CMakeFiles/push_swap.h.dir/ft_strchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.h.dir/ft_strchr.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/_dobrolubov/42/push_swap/ft_strchr.c > CMakeFiles/push_swap.h.dir/ft_strchr.c.i
+
+CMakeFiles/push_swap.h.dir/ft_strchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/ft_strchr.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/ft_strchr.c -o CMakeFiles/push_swap.h.dir/ft_strchr.c.s
+
+CMakeFiles/push_swap.h.dir/ft_strclr.c.o: CMakeFiles/push_swap.h.dir/flags.make
+CMakeFiles/push_swap.h.dir/ft_strclr.c.o: ../ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.h.dir/ft_strclr.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.h.dir/ft_strclr.c.o   -c /Users/_dobrolubov/42/push_swap/ft_strclr.c
+
+CMakeFiles/push_swap.h.dir/ft_strclr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.h.dir/ft_strclr.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/_dobrolubov/42/push_swap/ft_strclr.c > CMakeFiles/push_swap.h.dir/ft_strclr.c.i
+
+CMakeFiles/push_swap.h.dir/ft_strclr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/ft_strclr.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/ft_strclr.c -o CMakeFiles/push_swap.h.dir/ft_strclr.c.s
+
+CMakeFiles/push_swap.h.dir/ft_strcpy.c.o: CMakeFiles/push_swap.h.dir/flags.make
+CMakeFiles/push_swap.h.dir/ft_strcpy.c.o: ../ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap.h.dir/ft_strcpy.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.h.dir/ft_strcpy.c.o   -c /Users/_dobrolubov/42/push_swap/ft_strcpy.c
+
+CMakeFiles/push_swap.h.dir/ft_strcpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.h.dir/ft_strcpy.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/_dobrolubov/42/push_swap/ft_strcpy.c > CMakeFiles/push_swap.h.dir/ft_strcpy.c.i
+
+CMakeFiles/push_swap.h.dir/ft_strcpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/ft_strcpy.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/ft_strcpy.c -o CMakeFiles/push_swap.h.dir/ft_strcpy.c.s
+
 CMakeFiles/push_swap.h.dir/ft_strdel.c.o: CMakeFiles/push_swap.h.dir/flags.make
 CMakeFiles/push_swap.h.dir/ft_strdel.c.o: ../ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap.h.dir/ft_strdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/push_swap.h.dir/ft_strdel.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.h.dir/ft_strdel.c.o   -c /Users/_dobrolubov/42/push_swap/ft_strdel.c
 
 CMakeFiles/push_swap.h.dir/ft_strdel.c.i: cmake_force
@@ -135,9 +187,48 @@ CMakeFiles/push_swap.h.dir/ft_strdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/ft_strdel.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/ft_strdel.c -o CMakeFiles/push_swap.h.dir/ft_strdel.c.s
 
+CMakeFiles/push_swap.h.dir/ft_strjoin.c.o: CMakeFiles/push_swap.h.dir/flags.make
+CMakeFiles/push_swap.h.dir/ft_strjoin.c.o: ../ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/push_swap.h.dir/ft_strjoin.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.h.dir/ft_strjoin.c.o   -c /Users/_dobrolubov/42/push_swap/ft_strjoin.c
+
+CMakeFiles/push_swap.h.dir/ft_strjoin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.h.dir/ft_strjoin.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/_dobrolubov/42/push_swap/ft_strjoin.c > CMakeFiles/push_swap.h.dir/ft_strjoin.c.i
+
+CMakeFiles/push_swap.h.dir/ft_strjoin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/ft_strjoin.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/ft_strjoin.c -o CMakeFiles/push_swap.h.dir/ft_strjoin.c.s
+
+CMakeFiles/push_swap.h.dir/ft_strlen.c.o: CMakeFiles/push_swap.h.dir/flags.make
+CMakeFiles/push_swap.h.dir/ft_strlen.c.o: ../ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/push_swap.h.dir/ft_strlen.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.h.dir/ft_strlen.c.o   -c /Users/_dobrolubov/42/push_swap/ft_strlen.c
+
+CMakeFiles/push_swap.h.dir/ft_strlen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.h.dir/ft_strlen.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/_dobrolubov/42/push_swap/ft_strlen.c > CMakeFiles/push_swap.h.dir/ft_strlen.c.i
+
+CMakeFiles/push_swap.h.dir/ft_strlen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/ft_strlen.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/ft_strlen.c -o CMakeFiles/push_swap.h.dir/ft_strlen.c.s
+
+CMakeFiles/push_swap.h.dir/ft_strnew.c.o: CMakeFiles/push_swap.h.dir/flags.make
+CMakeFiles/push_swap.h.dir/ft_strnew.c.o: ../ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/push_swap.h.dir/ft_strnew.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.h.dir/ft_strnew.c.o   -c /Users/_dobrolubov/42/push_swap/ft_strnew.c
+
+CMakeFiles/push_swap.h.dir/ft_strnew.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.h.dir/ft_strnew.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/_dobrolubov/42/push_swap/ft_strnew.c > CMakeFiles/push_swap.h.dir/ft_strnew.c.i
+
+CMakeFiles/push_swap.h.dir/ft_strnew.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/ft_strnew.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/ft_strnew.c -o CMakeFiles/push_swap.h.dir/ft_strnew.c.s
+
 CMakeFiles/push_swap.h.dir/ft_strsplit.c.o: CMakeFiles/push_swap.h.dir/flags.make
 CMakeFiles/push_swap.h.dir/ft_strsplit.c.o: ../ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.h.dir/ft_strsplit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/push_swap.h.dir/ft_strsplit.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.h.dir/ft_strsplit.c.o   -c /Users/_dobrolubov/42/push_swap/ft_strsplit.c
 
 CMakeFiles/push_swap.h.dir/ft_strsplit.c.i: cmake_force
@@ -148,22 +239,35 @@ CMakeFiles/push_swap.h.dir/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/ft_strsplit.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/ft_strsplit.c -o CMakeFiles/push_swap.h.dir/ft_strsplit.c.s
 
-CMakeFiles/push_swap.h.dir/isdigit.c.o: CMakeFiles/push_swap.h.dir/flags.make
-CMakeFiles/push_swap.h.dir/isdigit.c.o: ../isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.h.dir/isdigit.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.h.dir/isdigit.c.o   -c /Users/_dobrolubov/42/push_swap/isdigit.c
+CMakeFiles/push_swap.h.dir/ft_strsub.c.o: CMakeFiles/push_swap.h.dir/flags.make
+CMakeFiles/push_swap.h.dir/ft_strsub.c.o: ../ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/push_swap.h.dir/ft_strsub.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.h.dir/ft_strsub.c.o   -c /Users/_dobrolubov/42/push_swap/ft_strsub.c
 
-CMakeFiles/push_swap.h.dir/isdigit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.h.dir/isdigit.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/_dobrolubov/42/push_swap/isdigit.c > CMakeFiles/push_swap.h.dir/isdigit.c.i
+CMakeFiles/push_swap.h.dir/ft_strsub.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.h.dir/ft_strsub.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/_dobrolubov/42/push_swap/ft_strsub.c > CMakeFiles/push_swap.h.dir/ft_strsub.c.i
 
-CMakeFiles/push_swap.h.dir/isdigit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/isdigit.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/isdigit.c -o CMakeFiles/push_swap.h.dir/isdigit.c.s
+CMakeFiles/push_swap.h.dir/ft_strsub.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/ft_strsub.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/ft_strsub.c -o CMakeFiles/push_swap.h.dir/ft_strsub.c.s
+
+CMakeFiles/push_swap.h.dir/get_next_line.c.o: CMakeFiles/push_swap.h.dir/flags.make
+CMakeFiles/push_swap.h.dir/get_next_line.c.o: ../get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/push_swap.h.dir/get_next_line.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.h.dir/get_next_line.c.o   -c /Users/_dobrolubov/42/push_swap/get_next_line.c
+
+CMakeFiles/push_swap.h.dir/get_next_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.h.dir/get_next_line.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/_dobrolubov/42/push_swap/get_next_line.c > CMakeFiles/push_swap.h.dir/get_next_line.c.i
+
+CMakeFiles/push_swap.h.dir/get_next_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/get_next_line.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/get_next_line.c -o CMakeFiles/push_swap.h.dir/get_next_line.c.s
 
 CMakeFiles/push_swap.h.dir/init_stack.c.o: CMakeFiles/push_swap.h.dir/flags.make
 CMakeFiles/push_swap.h.dir/init_stack.c.o: ../init_stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap.h.dir/init_stack.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/push_swap.h.dir/init_stack.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.h.dir/init_stack.c.o   -c /Users/_dobrolubov/42/push_swap/init_stack.c
 
 CMakeFiles/push_swap.h.dir/init_stack.c.i: cmake_force
@@ -174,6 +278,32 @@ CMakeFiles/push_swap.h.dir/init_stack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/init_stack.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/init_stack.c -o CMakeFiles/push_swap.h.dir/init_stack.c.s
 
+CMakeFiles/push_swap.h.dir/isdigit.c.o: CMakeFiles/push_swap.h.dir/flags.make
+CMakeFiles/push_swap.h.dir/isdigit.c.o: ../isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/push_swap.h.dir/isdigit.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.h.dir/isdigit.c.o   -c /Users/_dobrolubov/42/push_swap/isdigit.c
+
+CMakeFiles/push_swap.h.dir/isdigit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.h.dir/isdigit.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/_dobrolubov/42/push_swap/isdigit.c > CMakeFiles/push_swap.h.dir/isdigit.c.i
+
+CMakeFiles/push_swap.h.dir/isdigit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/isdigit.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/isdigit.c -o CMakeFiles/push_swap.h.dir/isdigit.c.s
+
+CMakeFiles/push_swap.h.dir/sorted.c.o: CMakeFiles/push_swap.h.dir/flags.make
+CMakeFiles/push_swap.h.dir/sorted.c.o: ../sorted.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/push_swap.h.dir/sorted.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.h.dir/sorted.c.o   -c /Users/_dobrolubov/42/push_swap/sorted.c
+
+CMakeFiles/push_swap.h.dir/sorted.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.h.dir/sorted.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/_dobrolubov/42/push_swap/sorted.c > CMakeFiles/push_swap.h.dir/sorted.c.i
+
+CMakeFiles/push_swap.h.dir/sorted.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.h.dir/sorted.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/sorted.c -o CMakeFiles/push_swap.h.dir/sorted.c.s
+
 # Object files for target push_swap.h
 push_swap_h_OBJECTS = \
 "CMakeFiles/push_swap.h.dir/checker.c.o" \
@@ -181,10 +311,20 @@ push_swap_h_OBJECTS = \
 "CMakeFiles/push_swap.h.dir/free_arg.c.o" \
 "CMakeFiles/push_swap.h.dir/ft_atol.c.o" \
 "CMakeFiles/push_swap.h.dir/ft_putendl.c.o" \
+"CMakeFiles/push_swap.h.dir/ft_strcat.c.o" \
+"CMakeFiles/push_swap.h.dir/ft_strchr.c.o" \
+"CMakeFiles/push_swap.h.dir/ft_strclr.c.o" \
+"CMakeFiles/push_swap.h.dir/ft_strcpy.c.o" \
 "CMakeFiles/push_swap.h.dir/ft_strdel.c.o" \
+"CMakeFiles/push_swap.h.dir/ft_strjoin.c.o" \
+"CMakeFiles/push_swap.h.dir/ft_strlen.c.o" \
+"CMakeFiles/push_swap.h.dir/ft_strnew.c.o" \
 "CMakeFiles/push_swap.h.dir/ft_strsplit.c.o" \
+"CMakeFiles/push_swap.h.dir/ft_strsub.c.o" \
+"CMakeFiles/push_swap.h.dir/get_next_line.c.o" \
+"CMakeFiles/push_swap.h.dir/init_stack.c.o" \
 "CMakeFiles/push_swap.h.dir/isdigit.c.o" \
-"CMakeFiles/push_swap.h.dir/init_stack.c.o"
+"CMakeFiles/push_swap.h.dir/sorted.c.o"
 
 # External object files for target push_swap.h
 push_swap_h_EXTERNAL_OBJECTS =
@@ -194,13 +334,23 @@ push_swap.h: CMakeFiles/push_swap.h.dir/digit_arg.c.o
 push_swap.h: CMakeFiles/push_swap.h.dir/free_arg.c.o
 push_swap.h: CMakeFiles/push_swap.h.dir/ft_atol.c.o
 push_swap.h: CMakeFiles/push_swap.h.dir/ft_putendl.c.o
+push_swap.h: CMakeFiles/push_swap.h.dir/ft_strcat.c.o
+push_swap.h: CMakeFiles/push_swap.h.dir/ft_strchr.c.o
+push_swap.h: CMakeFiles/push_swap.h.dir/ft_strclr.c.o
+push_swap.h: CMakeFiles/push_swap.h.dir/ft_strcpy.c.o
 push_swap.h: CMakeFiles/push_swap.h.dir/ft_strdel.c.o
+push_swap.h: CMakeFiles/push_swap.h.dir/ft_strjoin.c.o
+push_swap.h: CMakeFiles/push_swap.h.dir/ft_strlen.c.o
+push_swap.h: CMakeFiles/push_swap.h.dir/ft_strnew.c.o
 push_swap.h: CMakeFiles/push_swap.h.dir/ft_strsplit.c.o
-push_swap.h: CMakeFiles/push_swap.h.dir/isdigit.c.o
+push_swap.h: CMakeFiles/push_swap.h.dir/ft_strsub.c.o
+push_swap.h: CMakeFiles/push_swap.h.dir/get_next_line.c.o
 push_swap.h: CMakeFiles/push_swap.h.dir/init_stack.c.o
+push_swap.h: CMakeFiles/push_swap.h.dir/isdigit.c.o
+push_swap.h: CMakeFiles/push_swap.h.dir/sorted.c.o
 push_swap.h: CMakeFiles/push_swap.h.dir/build.make
 push_swap.h: CMakeFiles/push_swap.h.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable push_swap.h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C executable push_swap.h"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.h.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

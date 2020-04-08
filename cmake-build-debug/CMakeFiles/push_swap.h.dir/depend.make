@@ -10,21 +10,49 @@ CMakeFiles/push_swap.h.dir/digit_arg.c.o: ../push_swap.h
 CMakeFiles/push_swap.h.dir/free_arg.c.o: ../free_arg.c
 CMakeFiles/push_swap.h.dir/free_arg.c.o: ../push_swap.h
 
-CMakeFiles/push_swap.h.dir/ft_atol.c.o: ../ft_atol.c
-CMakeFiles/push_swap.h.dir/ft_atol.c.o: ../push_swap.h
 
 CMakeFiles/push_swap.h.dir/ft_putendl.c.o: ../ft_putendl.c
 CMakeFiles/push_swap.h.dir/ft_putendl.c.o: ../push_swap.h
 
+CMakeFiles/push_swap.h.dir/ft_strcat.c.o: ../ft_strcat.c
+CMakeFiles/push_swap.h.dir/ft_strcat.c.o: ../push_swap.h
+
+CMakeFiles/push_swap.h.dir/ft_strchr.c.o: ../ft_strchr.c
+CMakeFiles/push_swap.h.dir/ft_strchr.c.o: ../push_swap.h
+
+CMakeFiles/push_swap.h.dir/ft_strclr.c.o: ../ft_strclr.c
+CMakeFiles/push_swap.h.dir/ft_strclr.c.o: ../push_swap.h
+
+CMakeFiles/push_swap.h.dir/ft_strcpy.c.o: ../ft_strcpy.c
+CMakeFiles/push_swap.h.dir/ft_strcpy.c.o: ../push_swap.h
+
 CMakeFiles/push_swap.h.dir/ft_strdel.c.o: ../ft_strdel.c
 CMakeFiles/push_swap.h.dir/ft_strdel.c.o: ../push_swap.h
 
+CMakeFiles/push_swap.h.dir/ft_strjoin.c.o: ../ft_strjoin.c
+CMakeFiles/push_swap.h.dir/ft_strjoin.c.o: ../push_swap.h
+
+CMakeFiles/push_swap.h.dir/ft_strlen.c.o: ../ft_strlen.c
+CMakeFiles/push_swap.h.dir/ft_strlen.c.o: ../push_swap.h
+
+CMakeFiles/push_swap.h.dir/ft_strnew.c.o: ../ft_strnew.c
+CMakeFiles/push_swap.h.dir/ft_strnew.c.o: ../push_swap.h
+
 CMakeFiles/push_swap.h.dir/ft_strsplit.c.o: ../ft_strsplit.c
 CMakeFiles/push_swap.h.dir/ft_strsplit.c.o: ../push_swap.h
+
+CMakeFiles/push_swap.h.dir/ft_strsub.c.o: ../ft_strsub.c
+CMakeFiles/push_swap.h.dir/ft_strsub.c.o: ../push_swap.h
+
+CMakeFiles/push_swap.h.dir/get_next_line.c.o: ../get_next_line.c
+CMakeFiles/push_swap.h.dir/get_next_line.c.o: ../push_swap.h
 
 CMakeFiles/push_swap.h.dir/init_stack.c.o: ../init_stack.c
 CMakeFiles/push_swap.h.dir/init_stack.c.o: ../push_swap.h
 
 CMakeFiles/push_swap.h.dir/isdigit.c.o: ../isdigit.c
 CMakeFiles/push_swap.h.dir/isdigit.c.o: ../push_swap.h
+
+CMakeFiles/push_swap.h.dir/sorted.c.o: ../push_swap.h
+CMakeFiles/push_swap.h.dir/sorted.c.o: ../sorted.c
 

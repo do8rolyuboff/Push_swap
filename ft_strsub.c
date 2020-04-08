@@ -1,24 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdel.c                                        :+:      :+:    :+:   */
+/*   ft_strsub.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ogeonosi <ogeonosi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/11 16:05:24 by ogeonosi          #+#    #+#             */
-/*   Updated: 2019/09/11 16:06:44 by ogeonosi         ###   ########.fr       */
+/*   Created: 2019/09/11 17:07:04 by ogeonosi          #+#    #+#             */
+/*   Updated: 2019/09/12 16:25:27 by ogeonosi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	ft_strdel(char **as)
+char		*ft_strsub(char const *s, unsigned int start, size_t len)
 {
-	if (!as)
-		return ;
-	if (as)
+	int		i;
+	char	*substr;
+
+	if (s == NULL)
+		return (NULL);
+	substr = (char*)malloc(sizeof(char) * (len + 1));
+	if (substr == NULL)
+		return (NULL);
+	i = 0;
+	while (len--)
 	{
-		free(*as);
-		*as = NULL;
+		substr[i] = s[start + i];
+		i++;
 	}
+	substr[i] = '\0';
+	return (substr);
 }

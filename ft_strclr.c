@@ -1,24 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdel.c                                        :+:      :+:    :+:   */
+/*   ft_strclr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ogeonosi <ogeonosi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/11 16:05:24 by ogeonosi          #+#    #+#             */
-/*   Updated: 2019/09/11 16:06:44 by ogeonosi         ###   ########.fr       */
+/*   Created: 2019/09/11 16:38:08 by ogeonosi          #+#    #+#             */
+/*   Updated: 2019/09/12 16:22:06 by ogeonosi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	ft_strdel(char **as)
+void	ft_strclr(char *s)
 {
-	if (!as)
-		return ;
-	if (as)
-	{
-		free(*as);
-		*as = NULL;
-	}
+	while (s != NULL && *s)
+		*s++ = '\0';
 }

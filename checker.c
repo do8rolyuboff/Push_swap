@@ -1,6 +1,6 @@
 #include "push_swap.h"
 
-int			is_ordered(t_stack *a)
+int			is_sorted(t_stack *a)
 {
 	t_stack	*temp;
 
@@ -62,15 +62,11 @@ int				main(int argc, char **argv)
 		ft_putendl("Error");
 	else
 	{
-		if (is_ordered(stack_a) && !stack_b)
-			printf("OK\n");
+//		sorted(stack_a, stack_b);
+		if (is_sorted(stack_a) && !stack_b)
+			ft_putendl("OK\n");
 		else
-			printf("KO\n");
-		while(stack_a)
-		{
-			printf("%d ", stack_a->data);
-			stack_a = stack_a->next;
-		}
+			ft_putendl("KO\n");
 	}
 	return (0);
 }

@@ -1,24 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdel.c                                        :+:      :+:    :+:   */
+/*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ogeonosi <ogeonosi@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ogeonosi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/11 16:05:24 by ogeonosi          #+#    #+#             */
-/*   Updated: 2019/09/11 16:06:44 by ogeonosi         ###   ########.fr       */
+/*   Created: 2019/09/10 12:49:40 by ogeonosi          #+#    #+#             */
+/*   Updated: 2019/09/10 13:19:36 by ogeonosi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	ft_strdel(char **as)
+char		*ft_strcat(char *dst, const char *app)
 {
-	if (!as)
-		return ;
-	if (as)
+	char	*slt;
+
+	slt = dst;
+	while (*slt != '\0')
+		slt++;
+	while (*app != '\0')
 	{
-		free(*as);
-		*as = NULL;
+		*slt = *app;
+		slt++;
+		app++;
 	}
+	*slt = '\0';
+	return (dst);
 }
