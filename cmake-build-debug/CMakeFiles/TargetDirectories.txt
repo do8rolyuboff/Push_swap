@@ -1,3 +1,3 @@
 /Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles/push_swap.h.dir
+/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir

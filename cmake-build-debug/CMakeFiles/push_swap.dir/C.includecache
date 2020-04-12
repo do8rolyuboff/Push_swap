@@ -6,17 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/Users/_dobrolubov/42/push_swap/checker.c
-push_swap.h
-/Users/_dobrolubov/42/push_swap/push_swap.h
-
-/Users/_dobrolubov/42/push_swap/push_swap.h
+/Users/_dobrolubov/42/push_swap/includes/push_swap.h
 stdlib.h
 -
 unistd.h
 -
 stdio.h
 -
-stdarg.h
+../libft/libft.h
+/Users/_dobrolubov/42/push_swap/libft/libft.h
+
+/Users/_dobrolubov/42/push_swap/libft/libft.h
+string.h
 -
+stdlib.h
+-
+unistd.h
+-
+
+/Users/_dobrolubov/42/push_swap/srcs/operations.c
+../includes/push_swap.h
+/Users/_dobrolubov/42/push_swap/includes/push_swap.h
 

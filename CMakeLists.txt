@@ -1,26 +1,40 @@
 cmake_minimum_required(VERSION 3.15)
 project(push_swap C)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD 11)
 
-add_executable(push_swap.h
-        checker.c
-        digit_arg.c
-        free_arg.c
-        ft_atol.c
-        ft_putendl.c
-        ft_strcat.c
-        ft_strchr.c
-        ft_strclr.c
-        ft_strcpy.c
-        ft_strdel.c
-        ft_strjoin.c
-        ft_strlen.c
-        ft_strnew.c
-        ft_strsplit.c
-        ft_strsub.c
-        get_next_line.c
-        init_stack.c
-        isdigit.c
-        sorted.c
-        )
+include_directories(includes)
+include_directories(libft)
+
+add_executable(push_swap
+        includes/push_swap.h
+        libft/ft_atol.c
+        libft/ft_putendl.c
+        libft/ft_strcat.c
+        libft/ft_strchr.c
+        libft/ft_strclr.c
+        libft/ft_strcmp.c
+        libft/ft_strcpy.c
+        libft/ft_strdel.c
+        libft/ft_strequ.c
+        libft/ft_strjoin.c
+        libft/ft_strlen.c
+        libft/ft_strnew.c
+        libft/ft_strsplit.c
+        libft/ft_strsub.c
+        libft/get_next_line.c
+        libft/isdigit.c
+        libft/libft.h
+        srcs/checker.c
+        srcs/free.c
+        srcs/init_stack.c
+        srcs/is_sorted.c
+        srcs/operations.c
+        srcs/push_swap.c
+        srcs/px.c
+        srcs/rrx.c
+        srcs/rx.c
+        srcs/sort.c
+        srcs/stack_size.c
+        srcs/sx.c
+        srcs/validators.c)
