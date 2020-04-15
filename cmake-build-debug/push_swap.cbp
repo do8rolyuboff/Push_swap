@@ -163,7 +163,13 @@
 		<Unit filename="/Users/_dobrolubov/42/push_swap/srcs/rx.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/_dobrolubov/42/push_swap/srcs/rx_or_rrx.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/_dobrolubov/42/push_swap/srcs/sort.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/_dobrolubov/42/push_swap/srcs/sort2.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/_dobrolubov/42/push_swap/srcs/stack_size.c">

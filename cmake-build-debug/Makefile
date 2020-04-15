@@ -798,6 +798,33 @@ srcs/rx.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/rx.c.s
 .PHONY : srcs/rx.c.s
 
+srcs/rx_or_rrx.o: srcs/rx_or_rrx.c.o
+
+.PHONY : srcs/rx_or_rrx.o
+
+# target to build an object file
+srcs/rx_or_rrx.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.o
+.PHONY : srcs/rx_or_rrx.c.o
+
+srcs/rx_or_rrx.i: srcs/rx_or_rrx.c.i
+
+.PHONY : srcs/rx_or_rrx.i
+
+# target to preprocess a source file
+srcs/rx_or_rrx.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.i
+.PHONY : srcs/rx_or_rrx.c.i
+
+srcs/rx_or_rrx.s: srcs/rx_or_rrx.c.s
+
+.PHONY : srcs/rx_or_rrx.s
+
+# target to generate assembly for a file
+srcs/rx_or_rrx.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.s
+.PHONY : srcs/rx_or_rrx.c.s
+
 srcs/sort.o: srcs/sort.c.o
 
 .PHONY : srcs/sort.o
@@ -824,6 +851,33 @@ srcs/sort.s: srcs/sort.c.s
 srcs/sort.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/sort.c.s
 .PHONY : srcs/sort.c.s
+
+srcs/sort2.o: srcs/sort2.c.o
+
+.PHONY : srcs/sort2.o
+
+# target to build an object file
+srcs/sort2.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/sort2.c.o
+.PHONY : srcs/sort2.c.o
+
+srcs/sort2.i: srcs/sort2.c.i
+
+.PHONY : srcs/sort2.i
+
+# target to preprocess a source file
+srcs/sort2.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/sort2.c.i
+.PHONY : srcs/sort2.c.i
+
+srcs/sort2.s: srcs/sort2.c.s
+
+.PHONY : srcs/sort2.s
+
+# target to generate assembly for a file
+srcs/sort2.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/sort2.c.s
+.PHONY : srcs/sort2.c.s
 
 srcs/stack_size.o: srcs/stack_size.c.o
 
@@ -990,9 +1044,15 @@ help:
 	@echo "... srcs/rx.o"
 	@echo "... srcs/rx.i"
 	@echo "... srcs/rx.s"
+	@echo "... srcs/rx_or_rrx.o"
+	@echo "... srcs/rx_or_rrx.i"
+	@echo "... srcs/rx_or_rrx.s"
 	@echo "... srcs/sort.o"
 	@echo "... srcs/sort.i"
 	@echo "... srcs/sort.s"
+	@echo "... srcs/sort2.o"
+	@echo "... srcs/sort2.i"
+	@echo "... srcs/sort2.s"
 	@echo "... srcs/stack_size.o"
 	@echo "... srcs/stack_size.i"
 	@echo "... srcs/stack_size.s"

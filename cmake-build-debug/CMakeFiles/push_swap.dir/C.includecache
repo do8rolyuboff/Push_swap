@@ -24,7 +24,11 @@ stdlib.h
 unistd.h
 -
 
-/Users/_dobrolubov/42/push_swap/srcs/operations.c
+/Users/_dobrolubov/42/push_swap/srcs/checker.c
+../includes/push_swap.h
+/Users/_dobrolubov/42/push_swap/includes/push_swap.h
+
+/Users/_dobrolubov/42/push_swap/srcs/init_stack.c
 ../includes/push_swap.h
 /Users/_dobrolubov/42/push_swap/includes/push_swap.h
 

@@ -1,6 +1,6 @@
 #include "../includes/push_swap.h"
 
-void        ra(t_stack **stack_a)
+void        ra(t_stack **stack_a, int p)
 {
 	t_stack	*first;
 	t_stack	*last;
@@ -15,9 +15,11 @@ void        ra(t_stack **stack_a)
 	first->next = NULL;
 	last->next = first;
 	first->prev = last;
+	if (p == 0)
+		ft_putendl("ra");
 }
 
-void        rb(t_stack **stack_b)
+void        rb(t_stack **stack_b, int p)
 {
 	t_stack	*first;
 	t_stack	*last;
@@ -32,12 +34,15 @@ void        rb(t_stack **stack_b)
 	first->next = NULL;
 	last->next = first;
 	first->prev = last;
+	if (p == 0)
+		ft_putendl("rb");
 }
 
 void        rr(t_stack **stack_a, t_stack **stack_b)
 {
 	if (!*stack_a || !*stack_b)
 		return ;
-	ra(stack_a);
-	rb(stack_b);
+	ra(stack_a, 1);
+	rb(stack_b, 1);
+	ft_putendl("rr");
 }

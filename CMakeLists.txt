@@ -35,6 +35,8 @@ add_executable(push_swap
         srcs/rrx.c
         srcs/rx.c
         srcs/sort.c
+        srcs/sort2.c
         srcs/stack_size.c
         srcs/sx.c
-        srcs/validators.c)
+        srcs/validators.c
+        srcs/rx_or_rrx.c)

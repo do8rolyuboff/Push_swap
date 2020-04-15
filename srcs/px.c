@@ -21,6 +21,7 @@ void		pa(t_stack **stack_a, t_stack **stack_b)
 	}
 	else
 		(*stack_b) = NULL;
+	ft_putendl("pa");
 }
 
 void		pb(t_stack **stack_b, t_stack **stack_a)
@@ -44,4 +45,5 @@ void		pb(t_stack **stack_b, t_stack **stack_a)
 	}
 	else
 		(*stack_a) = NULL;
+	ft_putendl("pb");
 }

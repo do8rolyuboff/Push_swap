@@ -12,6 +12,8 @@ void 	sa(t_stack **stack_a)
 		(*stack_a)->data = (*stack_a)->next->data;
 		(*stack_a)->next->data = i;
 	}
+	ft_putendl("sa");
+
 }
 
 void 	sb(t_stack **stack_b)
@@ -26,6 +28,7 @@ void 	sb(t_stack **stack_b)
 		(*stack_b)->data = (*stack_b)->next->data;
 		(*stack_b)->next->data = i;
 	}
+	ft_putendl("sb");
 }
 
 void 	ss(t_stack **stack_a, t_stack **stack_b)
@@ -46,4 +49,5 @@ void 	ss(t_stack **stack_a, t_stack **stack_b)
     	(*stack_b)->data = (*stack_b)->next->data;
     	(*stack_b)->next->data = i;
     }
+	ft_putendl("ss");
 }

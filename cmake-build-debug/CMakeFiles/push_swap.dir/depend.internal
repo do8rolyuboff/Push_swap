@@ -71,6 +71,8 @@ CMakeFiles/push_swap.dir/srcs/operations.c.o
  /Users/_dobrolubov/42/push_swap/libft/libft.h
  /Users/_dobrolubov/42/push_swap/srcs/operations.c
 CMakeFiles/push_swap.dir/srcs/push_swap.c.o
+ /Users/_dobrolubov/42/push_swap/includes/push_swap.h
+ /Users/_dobrolubov/42/push_swap/libft/libft.h
  /Users/_dobrolubov/42/push_swap/srcs/push_swap.c
 CMakeFiles/push_swap.dir/srcs/px.c.o
  /Users/_dobrolubov/42/push_swap/includes/push_swap.h
@@ -84,8 +86,18 @@ CMakeFiles/push_swap.dir/srcs/rx.c.o
  /Users/_dobrolubov/42/push_swap/includes/push_swap.h
  /Users/_dobrolubov/42/push_swap/libft/libft.h
  /Users/_dobrolubov/42/push_swap/srcs/rx.c
+CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.o
+ /Users/_dobrolubov/42/push_swap/includes/push_swap.h
+ /Users/_dobrolubov/42/push_swap/libft/libft.h
+ /Users/_dobrolubov/42/push_swap/srcs/rx_or_rrx.c
 CMakeFiles/push_swap.dir/srcs/sort.c.o
+ /Users/_dobrolubov/42/push_swap/includes/push_swap.h
+ /Users/_dobrolubov/42/push_swap/libft/libft.h
  /Users/_dobrolubov/42/push_swap/srcs/sort.c
+CMakeFiles/push_swap.dir/srcs/sort2.c.o
+ /Users/_dobrolubov/42/push_swap/includes/push_swap.h
+ /Users/_dobrolubov/42/push_swap/libft/libft.h
+ /Users/_dobrolubov/42/push_swap/srcs/sort2.c
 CMakeFiles/push_swap.dir/srcs/stack_size.c.o
  /Users/_dobrolubov/42/push_swap/includes/push_swap.h
  /Users/_dobrolubov/42/push_swap/libft/libft.h

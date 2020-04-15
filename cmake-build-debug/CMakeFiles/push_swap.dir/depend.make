@@ -70,6 +70,8 @@ CMakeFiles/push_swap.dir/srcs/operations.c.o: ../includes/push_swap.h
 CMakeFiles/push_swap.dir/srcs/operations.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/srcs/operations.c.o: ../srcs/operations.c
 
+CMakeFiles/push_swap.dir/srcs/push_swap.c.o: ../includes/push_swap.h
+CMakeFiles/push_swap.dir/srcs/push_swap.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/srcs/push_swap.c.o: ../srcs/push_swap.c
 
 CMakeFiles/push_swap.dir/srcs/px.c.o: ../includes/push_swap.h
@@ -84,7 +86,17 @@ CMakeFiles/push_swap.dir/srcs/rx.c.o: ../includes/push_swap.h
 CMakeFiles/push_swap.dir/srcs/rx.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/srcs/rx.c.o: ../srcs/rx.c
 
+CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.o: ../includes/push_swap.h
+CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.o: ../srcs/rx_or_rrx.c
+
+CMakeFiles/push_swap.dir/srcs/sort.c.o: ../includes/push_swap.h
+CMakeFiles/push_swap.dir/srcs/sort.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/srcs/sort.c.o: ../srcs/sort.c
+
+CMakeFiles/push_swap.dir/srcs/sort2.c.o: ../includes/push_swap.h
+CMakeFiles/push_swap.dir/srcs/sort2.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/srcs/sort2.c.o: ../srcs/sort2.c
 
 CMakeFiles/push_swap.dir/srcs/stack_size.c.o: ../includes/push_swap.h
 CMakeFiles/push_swap.dir/srcs/stack_size.c.o: ../libft/libft.h

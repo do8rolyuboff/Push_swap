@@ -9,18 +9,15 @@ OBJ_DIR = ./srcs/
 OPTIONS = -I$(INC_DIR) -I./libft -lft -L./libft
 HDR = ./includes/push_swap.h
 
-#OBJ_CH = $(OBJ_DIR)checker.o $(OBJ_DIR)stack_ops_1.o $(OBJ_DIR)commands_1.o
-#OBJ_CH += $(OBJ_DIR)commands_2.o $(OBJ_DIR)commands_3.o $(OBJ_DIR)debugging.o
-#OBJ_CH += $(OBJ_DIR)error_checks_1.o $(OBJ_DIR)error_checks_2.o
-#OBJ_CH += $(OBJ_DIR)validate.o $(OBJ_DIR)stack_ops_2.o $(OBJ_DIR)viz.o
-#OBJ_CH += $(OBJ_DIR)args.o
-#
-#OBJ_PS = $(OBJ_DIR)push_swap.o $(OBJ_DIR)algo_1.o $(OBJ_DIR)algo_2.o
-#OBJ_PS += $(OBJ_DIR)algo_helper_1.o $(OBJ_DIR)algo_helper_2.o
-#OBJ_PS += $(OBJ_DIR)commands_1.o $(OBJ_DIR)commands_2.o $(OBJ_DIR)commands_3.o
-#OBJ_PS += $(OBJ_DIR)stack_ops_1.o $(OBJ_DIR)stack_ops_2.o $(OBJ_DIR)validate.o
-#OBJ_PS += $(OBJ_DIR)error_checks_1.o $(OBJ_DIR)error_checks_2.o $(OBJ_DIR)debugging.o
-#OBJ_PS += $(OBJ_DIR)viz.o
+OBJ_CH = $(OBJ_DIR)checker.o $(OBJ_DIR)operations.o $(OBJ_DIR)init_stack.o $(OBJ_DIR)validators.o
+OBJ_CH += $(OBJ_DIR)is_sorted.o $(OBJ_DIR)px.o
+OBJ_CH += $(OBJ_DIR)rrx.o $(OBJ_DIR)rx.o $(OBJ_DIR)sx.o $(OBJ_DIR)free.o
+
+OBJ_PS = $(OBJ_DIR)push_swap.o $(OBJ_DIR)init_stack.o $(OBJ_DIR)validators.o
+OBJ_PS += $(OBJ_DIR)is_sorted.o $(OBJ_DIR)px.o $(OBJ_DIR)rx.o $(OBJ_DIR)sx.o
+OBJ_PS += $(OBJ_DIR)rrx.o $(OBJ_DIR)free.o $(OBJ_DIR)rx_or_rrx.o
+OBJ_PS += $(OBJ_DIR)sort.o $(OBJ_DIR)sort2.o $(OBJ_DIR)stack_size.o
+
 
 all: $(LIB) $(NAME_CH) $(NAME_PS)
 

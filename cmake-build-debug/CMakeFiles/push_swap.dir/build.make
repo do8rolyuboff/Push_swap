@@ -395,9 +395,22 @@ CMakeFiles/push_swap.dir/srcs/sort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/srcs/sort.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/srcs/sort.c -o CMakeFiles/push_swap.dir/srcs/sort.c.s
 
+CMakeFiles/push_swap.dir/srcs/sort2.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/srcs/sort2.c.o: ../srcs/sort2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/push_swap.dir/srcs/sort2.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/sort2.c.o   -c /Users/_dobrolubov/42/push_swap/srcs/sort2.c
+
+CMakeFiles/push_swap.dir/srcs/sort2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/srcs/sort2.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/_dobrolubov/42/push_swap/srcs/sort2.c > CMakeFiles/push_swap.dir/srcs/sort2.c.i
+
+CMakeFiles/push_swap.dir/srcs/sort2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/srcs/sort2.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/srcs/sort2.c -o CMakeFiles/push_swap.dir/srcs/sort2.c.s
+
 CMakeFiles/push_swap.dir/srcs/stack_size.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/stack_size.c.o: ../srcs/stack_size.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/push_swap.dir/srcs/stack_size.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/push_swap.dir/srcs/stack_size.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/stack_size.c.o   -c /Users/_dobrolubov/42/push_swap/srcs/stack_size.c
 
 CMakeFiles/push_swap.dir/srcs/stack_size.c.i: cmake_force
@@ -410,7 +423,7 @@ CMakeFiles/push_swap.dir/srcs/stack_size.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/sx.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/sx.c.o: ../srcs/sx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/push_swap.dir/srcs/sx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/push_swap.dir/srcs/sx.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/sx.c.o   -c /Users/_dobrolubov/42/push_swap/srcs/sx.c
 
 CMakeFiles/push_swap.dir/srcs/sx.c.i: cmake_force
@@ -423,7 +436,7 @@ CMakeFiles/push_swap.dir/srcs/sx.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/validators.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/validators.c.o: ../srcs/validators.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/push_swap.dir/srcs/validators.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/push_swap.dir/srcs/validators.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/validators.c.o   -c /Users/_dobrolubov/42/push_swap/srcs/validators.c
 
 CMakeFiles/push_swap.dir/srcs/validators.c.i: cmake_force
@@ -433,6 +446,19 @@ CMakeFiles/push_swap.dir/srcs/validators.c.i: cmake_force
 CMakeFiles/push_swap.dir/srcs/validators.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/srcs/validators.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/srcs/validators.c -o CMakeFiles/push_swap.dir/srcs/validators.c.s
+
+CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.o: ../srcs/rx_or_rrx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.o   -c /Users/_dobrolubov/42/push_swap/srcs/rx_or_rrx.c
+
+CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/_dobrolubov/42/push_swap/srcs/rx_or_rrx.c > CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.i
+
+CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/_dobrolubov/42/push_swap/srcs/rx_or_rrx.c -o CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.s
 
 # Object files for target push_swap
 push_swap_OBJECTS = \
@@ -462,9 +488,11 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/srcs/rrx.c.o" \
 "CMakeFiles/push_swap.dir/srcs/rx.c.o" \
 "CMakeFiles/push_swap.dir/srcs/sort.c.o" \
+"CMakeFiles/push_swap.dir/srcs/sort2.c.o" \
 "CMakeFiles/push_swap.dir/srcs/stack_size.c.o" \
 "CMakeFiles/push_swap.dir/srcs/sx.c.o" \
-"CMakeFiles/push_swap.dir/srcs/validators.c.o"
+"CMakeFiles/push_swap.dir/srcs/validators.c.o" \
+"CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.o"
 
 # External object files for target push_swap
 push_swap_EXTERNAL_OBJECTS =
@@ -495,12 +523,14 @@ push_swap: CMakeFiles/push_swap.dir/srcs/px.c.o
 push_swap: CMakeFiles/push_swap.dir/srcs/rrx.c.o
 push_swap: CMakeFiles/push_swap.dir/srcs/rx.c.o
 push_swap: CMakeFiles/push_swap.dir/srcs/sort.c.o
+push_swap: CMakeFiles/push_swap.dir/srcs/sort2.c.o
 push_swap: CMakeFiles/push_swap.dir/srcs/stack_size.c.o
 push_swap: CMakeFiles/push_swap.dir/srcs/sx.c.o
 push_swap: CMakeFiles/push_swap.dir/srcs/validators.c.o
+push_swap: CMakeFiles/push_swap.dir/srcs/rx_or_rrx.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/_dobrolubov/42/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

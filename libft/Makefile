@@ -9,6 +9,7 @@ SRC = ft_atol.c\
 	 	ft_strchr.c\
 		ft_strclr.c\
 		ft_strcmp.c\
+		ft_strcpy.c\
 		ft_strdel.c\
 		ft_strjoin.c\
 		ft_strlen.c\

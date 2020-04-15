@@ -10,18 +10,18 @@ void	get_instruction(t_stack **stack_a, t_stack **stack_b, char *instruction)
 		sa(stack_a);
 	else if (ft_strequ(instruction, "sb"))
 		sb(stack_b);
-	else if (ft_strequ(instruction, "ra"))
-		ra(stack_a);
-	else if (ft_strequ(instruction, "rb"))
-		rb(stack_b);
-	else if (ft_strequ(instruction, "rra"))
-		rra(stack_a);
-	else if (ft_strequ(instruction, "rrb"))
-		rrb(stack_b);
 	else if (ft_strequ(instruction, "ss"))
 		ss(stack_a, stack_b);
+	else if (ft_strequ(instruction, "ra"))
+		ra(stack_a, 0);
+	else if (ft_strequ(instruction, "rb"))
+		rb(stack_b, 0);
 	else if (ft_strequ(instruction, "rr"))
 		rr(stack_a, stack_b);
+	else if (ft_strequ(instruction, "rra"))
+		rra(stack_a, 0);
+	else if (ft_strequ(instruction, "rrb"))
+		rrb(stack_b, 0);
 	else if (ft_strequ(instruction, "rrr"))
 		rrr(stack_a, stack_b);
 	else
