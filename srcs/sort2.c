@@ -1,79 +1,59 @@
 #include "../includes/push_swap.h"
 
-int			large_pos(t_stack **stack, int num)
+int		find_nlargest_pos(t_stack **head, int largest)
 {
-	int		i;
+	t_stack	*tmp;
 	int		pos;
-	t_stack	*node;
+	int		i;
 
-	node = *stack;
-	i = 0;
+	tmp = *head;
 	pos = 0;
-	while (node)
+	i = 0;
+	while (tmp)
 	{
-		if (node->norm == num)
+		if (tmp->rank == largest)
 		{
 			pos = i;
 			break ;
 		}
-		node = node->next;
+		tmp = tmp->next;
 		i++;
 	}
 	return (pos);
 }
 
-void		rotate_x(t_stack **h, char c, int pos)
-{
-	int		size;
-
-	size = stack_size(*h);
-	if (pos > size / 2)
-	{
-		pos = size - pos;
-		while (pos-- != 0)
-			(c == 'a') ? rra(h, 0) : rrb(h, 0);
-	}
-	else if (pos <= size / 2)
-	{
-		while (pos-- != 0)
-			(c == 'a') ? ra(h, 0) : rb(h, 0);
-	}
-}
-
-void		push_b(t_stack **a, t_stack **b, int i, int max)
+void	pushback_b(t_stack **stack_a, t_stack **stack_b, int i, int range_max,  int num)
 {
 	int		pos;
 
-	while (*b)
+	while (*stack_b)
 	{
-		while (i > 0 && i >= max - 5)
+		while (i > 0 && i >= range_max - num)
 		{
-			pos = large_pos(b, i);
-			rotate_x(b, 'b', pos);
-			pa(a, b);
+			pos = find_nlargest_pos(stack_b, i);
+			rb_or_rrb(stack_b, pos);
+			pa(stack_a, stack_b);
 			i--;
 		}
-		max -= 5;
+		range_max -= num;
 	}
 }
 
-void		sort_all(t_stack **stack_a, t_stack **stack_b)
+void	sort_stack(t_stack **stack_a, t_stack **stack_b, int num)
 {
+	int		range_max;
 	int		i;
-	int		max;
-	int		size;
 
+	range_max = 0;
 	i = 1;
-	max = 0;
-	size = stack_size(*stack_a);
 	while (*stack_a)
 	{
-		max += (size <= 100) ? size / 5 - 2 : size / 11 - 2;
-		while (i <= max)
+		range_max += num;
+		while (i <= range_max)
 		{
 			if (!(*stack_a))
 				break ;
-			if ((*stack_a)->norm <= max)
+			if ((*stack_a)->rank <= range_max)
 			{
 				pb(stack_b, stack_a);
 				i++;
@@ -83,5 +63,5 @@ void		sort_all(t_stack **stack_a, t_stack **stack_b)
 		}
 	}
 	i--;
-	push_b(stack_a, stack_b, i, max);
+	pushback_b(stack_a, stack_b, i, range_max, num);
 }

@@ -7,7 +7,7 @@ t_stack		*add_head(int num)
 	if (!(head = (t_stack *)malloc(sizeof(*head))))
 		return (NULL);
 	head->prev = NULL;
-	head->norm = -1;
+	head->rank = -1;
 	head->data = num;
 	head->next = NULL;
 	return (head);

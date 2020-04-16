@@ -4,8 +4,11 @@ void 	sa(t_stack **stack_a)
 {
 	int i;
 
-	if (!*stack_a)
-		return ;
+	if (!*stack_a || stack_size(*stack_a) < 2)
+	{
+		ft_putendl("Error");
+		return;
+	}
 	if(*stack_a && (*stack_a)->next)
 	{
 		i = (*stack_a)->data;
@@ -20,8 +23,11 @@ void 	sb(t_stack **stack_b)
 {
 	int i;
 
-	if (!*stack_b)
-		return ;
+	if (!*stack_b || stack_size(*stack_b) < 2)
+	{
+		ft_putendl("Error");
+		return;
+	}
 	if(*stack_b && (*stack_b)->next)
 	{
 		i = (*stack_b)->data;
@@ -35,8 +41,11 @@ void 	ss(t_stack **stack_a, t_stack **stack_b)
 {
     int i;
 
-	if (!*stack_a || !*stack_b)
-		return ;
+	if (!*stack_a || stack_size(*stack_a) < 2 || !*stack_b || stack_size(*stack_b) < 2)
+	{
+		ft_putendl("Error");
+		return;
+	}
     if(*stack_a && (*stack_a)->next)
     {
     	i = (*stack_a)->data;

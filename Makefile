@@ -9,8 +9,8 @@ OBJ_DIR = ./srcs/
 OPTIONS = -I$(INC_DIR) -I./libft -lft -L./libft
 HDR = ./includes/push_swap.h
 
-OBJ_CH = $(OBJ_DIR)checker.o $(OBJ_DIR)operations.o $(OBJ_DIR)init_stack.o $(OBJ_DIR)validators.o
-OBJ_CH += $(OBJ_DIR)is_sorted.o $(OBJ_DIR)px.o
+OBJ_CH = $(OBJ_DIR)checker.o $(OBJ_DIR)init_stack.o $(OBJ_DIR)validators.o $(OBJ_DIR)operations.o
+OBJ_CH += $(OBJ_DIR)is_sorted.o $(OBJ_DIR)px.o $(OBJ_DIR)stack_size.o
 OBJ_CH += $(OBJ_DIR)rrx.o $(OBJ_DIR)rx.o $(OBJ_DIR)sx.o $(OBJ_DIR)free.o
 
 OBJ_PS = $(OBJ_DIR)push_swap.o $(OBJ_DIR)init_stack.o $(OBJ_DIR)validators.o

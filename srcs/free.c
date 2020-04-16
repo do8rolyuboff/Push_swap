@@ -1,6 +1,6 @@
 #include "../includes/push_swap.h"
 
-void			free_stack(t_stack **stack_a, t_stack **stack_b)
+void			free_stacks(t_stack **stack_a, t_stack **stack_b)
 {
 	t_stack	*tmp;
 

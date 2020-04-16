@@ -5,8 +5,11 @@ void        ra(t_stack **stack_a, int p)
 	t_stack	*first;
 	t_stack	*last;
 
-	if (!*stack_a)
+	if (!*stack_a || stack_size(*stack_a) < 2)
+	{
+		ft_putendl("Error");
 		return ;
+	}
 	first = *stack_a;
 	last = *stack_a;
 	while (last->next != NULL)
@@ -24,8 +27,11 @@ void        rb(t_stack **stack_b, int p)
 	t_stack	*first;
 	t_stack	*last;
 
-	if (!*stack_b)
+	if (!*stack_b || stack_size(*stack_b) < 2)
+	{
+		ft_putendl("Error");
 		return ;
+	}
 	first = *stack_b;
 	last = *stack_b;
 	while (last->next != NULL)
@@ -40,8 +46,11 @@ void        rb(t_stack **stack_b, int p)
 
 void        rr(t_stack **stack_a, t_stack **stack_b)
 {
-	if (!*stack_a || !*stack_b)
+	if (!*stack_a || stack_size(*stack_a) < 2 || !*stack_b || stack_size(*stack_b) < 2)
+	{
+		ft_putendl("Error");
 		return ;
+	}
 	ra(stack_a, 1);
 	rb(stack_b, 1);
 	ft_putendl("rr");

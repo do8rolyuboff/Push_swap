@@ -1,57 +1,26 @@
 #include "../includes/push_swap.h"
 
-
-int			small_pos(t_stack **stack, int num)
+int		find_nsmallest_pos(t_stack **head, int smallest)
 {
+	t_stack	*node;
+	int		pos;
 	int		i;
-	t_stack	*temp;
 
+	node = *head;
+	pos = 0;
 	i = 0;
-	temp = *stack;
-	while (temp->data != num)
+	while (node)
 	{
+		if (node->rank == smallest)
+		{
+			pos = i;
+			break ;
+		}
+		node = node->next;
 		i++;
-		temp = temp->next;
 	}
-	return (i);
+	return (pos);
 }
-
-int			small_num(t_stack **stack)
-{
-	int		i;
-	t_stack	*temp;
-
-	temp = *stack;
-	i = temp->data;
-	while (temp)
-	{
-		if (temp->data < i)
-			i = temp->data;
-		temp = temp->next;
-	}
-	return (i);
-}
-
-void		push_small(t_stack **stacka, t_stack **stackb, int pos)
-{
-	int		len;
-
-	len = stack_size(*stacka);
-	if (pos > len / 2)
-	{
-		pos = len - pos;
-		while (pos-- != 0)
-			rra(stacka, 0);
-	}
-	else if (pos <= len / 2)
-	{
-		while (pos-- != 0)
-			ra(stacka, 0);
-	}
-	pb(stackb, stacka);
-}
-
-
 
 void 		sort_2(t_stack **stack_a)
 {
@@ -68,38 +37,43 @@ void 		sort_3(t_stack **stack_a)
 	num1 = (*stack_a)->data;
 	num2 = (*stack_a)->next->data;
 	num3 = (*stack_a)->next->next->data;
-	if (num1 > num2 && num1 > num3 && num2 > num3) // 3 2 1
+	if (num1 > num2 && num1 > num3 && num2 > num3)
 	{
 		sa(stack_a);
 		rra(stack_a, 0);
 	}
-	else if (num2 > num1 && num2 > num3 && num3 > num1) // 1 3 2
+	else if (num2 > num1 && num2 > num3 && num3 > num1)
 	{
 		sa(stack_a);
 		ra(stack_a, 0);
 	}
-	else if (num1 > num2 && num1 < num3 && num3 > num2) // 2 1 3
+	else if (num1 > num2 && num1 < num3 && num3 > num2)
 		sa(stack_a);
-	else if (num1 > num3 && num3 > num2 && num1 > num2) // 3 1 2
+	else if (num1 > num3 && num3 > num2 && num1 > num2)
 		ra(stack_a,0);
-	else if (num3 < num1 && num3 < num2 && num1 < num2) // 2 3 1
+	else if (num3 < num1 && num3 < num2 && num1 < num2)
 		rra(stack_a,0);
 }
 
-void		sort_5(t_stack **stacka, t_stack **stackb)
+void	sort_5(t_stack **stack_a, t_stack **stack_b)
 {
 	int		i;
 	int		pos;
 	int		size;
 
-	size = stack_size(*stacka);
+	size = stack_size(*stack_a);
 	i = 0;
-	while (i++ < (size - 3))
+	while (i < (size - 3))
 	{
-		pos = small_pos(stacka, small_num(stacka));
-		push_small(stacka, stackb, pos);
+		pos = find_nsmallest_pos(stack_a, (i + 1));
+		ra_or_rra(stack_a, pos);
+		pb(stack_b, stack_a);
+		i++;
 	}
-	sort_3(stacka);
-	while (i-- > 0)
-		pa(stacka, stackb);
+	sort_3(stack_a);
+	while (i > 0)
+	{
+		pa(stack_a, stack_b);
+		i--;
+	}
 }
