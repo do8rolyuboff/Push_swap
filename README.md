@@ -5,6 +5,7 @@
 
 ### Сhecker
 ![checker](https://github.com/do8rolyuboff/Push_swap/blob/master/other/screenshot_checker.png)
+
 `checker`- в качестве апгумента получает стек, в виде списка целых чисел. Затем `checker` будет ждать инструкции.
 
 `sa`: swap a - меняет местами первые 2 элемента в верхней части стека a.
@@ -42,7 +43,15 @@
 ![push_swap](https://github.com/do8rolyuboff/Push_swap/blob/master/other/screenshot_push_swap.png)
 
 ### Визуализация
-Для отладки алгоритма, я пользовался сприптом для визуализации сортировки: [python3 pyviz.py `ruby -e "puts (-200..200).to_a.shuffle.join(' ')"`](https://github.com/o-reo/push_swap_visualizer)
+Для отладки алгоритма, я пользовался сприптом для визуализации сортировки: [pyviz.py](https://github.com/o-reo/push_swap_visualizer)
 
 ## Как проверить Push_swap?
 
+`git clone https://github.com/do8rolyuboff/Push_swap.git push_swap`
+
+`cd push_swap`
+
+`make` и запустите скрипт: 
+python3 pyviz.py `ruby -e "puts (0..100).to_a.shuffle.join(' ')"` 
+который сгенерирует стек из 100 и запустит визуализацию работы программы `push_swap`
+![pyviz.py](https://github.com/do8rolyuboff/Push_swap/blob/master/other/push_swap.gif)
