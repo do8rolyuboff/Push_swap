@@ -1,28 +1,37 @@
 #include "libft.h"
 
-long		ft_atol(char *str)
+static long int		ft_digitlen(const char *str)
 {
-	long	ret;
-	long	neg;
-	int		i;
+	long int	i;
 
-	ret = 0;
-	neg = 1;
-	i = 0;
-	while (str[i] == ' ' || str[i] == '\t' || str[i] == '\n' ||
-		   str[i] == '\f' || str[i] == '\v' || str[i] == '\r')
-		i++;
-	if (str[i] == '-' || str[i] == '+')
+	i = 1;
+	while (ft_isdigit(*++str))
+		i *= 10;
+	return (i);
+}
+
+long int			ft_atol(const char *str)
+{
+	long int	res[3];
+
+	if (!str || !*str)
+		return (0);
+	res[0] = ft_isdigit(*str) ? *str - '0' : 0;
+	if (ft_strchr("\t\n\r\v\f ", *str) && res[0] == 0)
+		return (ft_atol(str + 1));
+	if (ft_strchr("+-", *str) && ft_isdigit(*(str + 1)))
+		return (ft_atol(str + 1));
+	else if (ft_strchr("+-", *str) && !ft_isdigit(*(str + 1)))
+		return (0);
+	if (ft_isdigit(*(str)))
 	{
-		if (str[i] == '-')
-			neg = -1;
-		i++;
+		res[1] = *(str - 1) == '-' ? -1 : 1;
+		res[2] = ft_isdigit(*(str + 1)) ? ft_atol(str + 1) : 0;
+		res[0] = res[0] * ft_digitlen(str);
+		if (res[2] >= 0 && (res[0] + res[2]) >= res[0])
+			res[0] = (res[0] + res[2]) * res[1];
+		else
+			res[0] = res[1] > 0 ? -1 : 0;
 	}
-	while (str[i] && isdigit(str[i]))
-	{
-		ret *= 10;
-		ret += str[i] - 48;
-		i++;
-	}
-	return (ret * neg);
+	return (res[0]);
 }

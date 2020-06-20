@@ -1,67 +1,62 @@
 #include "libft.h"
 
-void	*ft_memset(void *b, int c, size_t len)
+static int	str_len(char const *str, char delim, int index)
 {
-	unsigned char *chr;
+	int		len;
 
-	if (len == 0)
-		return (b);
-	chr = (unsigned char *)b;
-	while (len)
+	len = 0;
+	while (str[index] == delim)
+		index++;
+	while (str[index] != delim && str[index] != '\0')
 	{
-		*chr = (unsigned char)c;
-		len--;
-		chr++;
+		index++;
+		len++;
 	}
-	return (b);
+	return (len);
 }
 
-int		ft_word_len(char const *str, char c)
+static int	count_words(char const *str, char delim, int index)
 {
-	int i;
-	int temp;
+	int		count;
 
-	i = 0;
-	temp = 0;
-	while (*str)
+	if (!(str[index]))
+		return (0);
+	count = 0;
+	while (str[index] == delim)
+		index++;
+	while (str[index] != '\0' && str[index] != delim)
 	{
-		if (temp == 1 && *str == c)
-			temp = 0;
-		if (temp == 0 && *str != c)
-		{
-			temp = 1;
-			i++;
-		}
-		str++;
+		index++;
+		count = 1;
 	}
-	return (i);
+	return (count + count_words(str, delim, index));
 }
 
-char		**ft_strsplit(char const *str, char splitter)
+char		**ft_strsplit(char const *s, char c)
 {
-	int 		i;
-	int			j;
-	int			len;
-	int 		start;
-	char		**ret;
+	int		i;
+	int		j;
+	char	**array;
+	int		k;
 
-	if ((str == NULL) || (splitter == 0))
+	if (!s || !c)
 		return (NULL);
-	len = ft_word_len(str, splitter);
-	if (!(ret = malloc((sizeof(char *)) * (len + 1))))
+	if (!(array = (char**)malloc(sizeof(*array) * (count_words(s, c, 0) + 1))))
 		return (NULL);
 	i = 0;
-	j = -1;
-	while (++j < len)
+	j = 0;
+	while (i < count_words(s, c, 0))
 	{
-		while (str[i] && str[i] == splitter)
-			i++;
-		start = i;
-		while (str[i] && str[i] != splitter)
-			i++;
-		ret[j] = ft_strsub(str, start, i - start);
+		k = 0;
+		if (!(array[i] = ft_strnew(str_len(s, c, j))))
+			return (NULL);
+		while (s[j] == c)
+			j++;
+		while (s[j] != c && s[j])
+			array[i][k++] = s[j++];
+		array[i][k] = '\0';
 		i++;
 	}
-	ret[j] = NULL;
-	return (ret);
+	array[i] = 0;
+	return (array);
 }

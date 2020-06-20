@@ -5,10 +5,7 @@ void		stack_add_head(t_stack **head, t_stack *node)
 	t_stack	*tmp;
 
 	if (!(head) || (!(node)))
-	{
-		ft_putendl("Error");
 		return ;
-	}
 	tmp = *head;
 	if (tmp)
 	{
@@ -25,42 +22,33 @@ void		stack_add_head(t_stack **head, t_stack *node)
 	}
 }
 
-void		pa(t_stack **stack_a, t_stack **stack_b)
+void		pa(t_stack **stack_a, t_stack **stack_b, int p)
 {
 	t_stack *tmp;
 
 	if (!*stack_b)
-	{
-		ft_putendl("Error");
 		return ;
-	}
-	tmp = add_head((*stack_b)->data);
-	if (*stack_a)
+	if (stack_b != NULL)
 	{
-		tmp->next = (*stack_a);
-		(*stack_a) = tmp;
+		tmp = *stack_b;
+		if ((*stack_b)->next)
+			*stack_b = (*stack_b)->next;
+		else
+			*stack_b = NULL;
+		if (*stack_b)
+			(*stack_b)->prev = NULL;
+		stack_add_head(stack_a, tmp);
 	}
-	else
-		*stack_a = tmp;
-	if ((*stack_b)->next)
-	{
-		*stack_b = (*stack_b)->next;
-		(*stack_b)->prev = NULL;
-	}
-	else
-		(*stack_b) = NULL;
-	ft_putendl("pa");
+	if (p == 0)
+		ft_putendl_fd("pa", 1);
 }
 
-void		pb(t_stack **stack_b, t_stack **stack_a)
+void		pb(t_stack **stack_b, t_stack **stack_a, int p)
 {
 	t_stack *tmp;
 
 	if (!*stack_a)
-	{
-		ft_putendl("Error");
 		return ;
-	}
 	tmp = *stack_a;
 	if ((*stack_a)->next)
 		*stack_a = (*stack_a)->next;
@@ -69,5 +57,6 @@ void		pb(t_stack **stack_b, t_stack **stack_a)
 	if (*stack_a)
 		(*stack_a)->prev = NULL;
 	stack_add_head(stack_b, tmp);
-	ft_putendl("pb");
+	if (p == 0)
+		ft_putendl_fd("pb", 1);
 }

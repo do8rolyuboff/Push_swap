@@ -7,42 +7,45 @@ int			digit_arg(char *str)
 	i = 0;
 	if (str[i] == '-')
 		i++;
-	else if (!isdigit(str[i]))
+	else if (!ft_isdigit(str[i]))
 		return (0);
 	while (str[i])
 	{
-		if (!isdigit(str[i]))
+		if (!ft_isdigit(str[i]))
 			return (0);
 		i++;
 	}
 	return (1);
 }
 
-int				check_args(int argc, char **argv)
+int			check_args(int argc, char **argv)
 {
-	int i;
-	int j;
-	char **temp;
+	int		i;
+	int		j;
+	char	**temp;
 
 	i = 1;
-	while(i < argc)
+	while (i < argc)
 	{
 		j = -1;
 		temp = ft_strsplit(argv[i++], ' ');
 		while (temp[++j])
-			if (!digit_arg(temp[j]) || ft_atol(temp[j]) > 2147483647 ||
-				ft_atol(temp[j]) < -2147483648)
+			if (!digit_arg(temp[j]) || (ft_atol(temp[j]) > 2147483647) ||
+					(ft_atol(temp[j]) < -2147483648))
+			{
+				free_arg(temp);
 				return (-1);
+			}
 		free_arg(temp);
 	}
 	return (0);
 }
 
-int		check_dup(t_stack *stack_a)
+int			check_dup(t_stack *stack_a)
 {
 	t_stack	*head;
 
-	while(stack_a)
+	while (stack_a)
 	{
 		head = stack_a->next;
 		while (head)

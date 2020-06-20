@@ -1,6 +1,6 @@
 #include "../includes/push_swap.h"
 
-void			free_stacks(t_stack **stack_a, t_stack **stack_b)
+void		free_stacks(t_stack **stack_a, t_stack **stack_b)
 {
 	t_stack	*tmp;
 
@@ -20,10 +20,13 @@ void			free_stacks(t_stack **stack_a, t_stack **stack_b)
 
 void		free_arg(char **str)
 {
-	int		i;
+	int	i;
 
 	i = 0;
-	while (str[i])
-		ft_strdel(&str[i++]);
+	while (str[i] != '\0')
+	{
+		free(str[i]);
+		i++;
+	}
 	free(str);
 }

@@ -1,90 +1,68 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ogeonosi <ogeonosi@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/10/01 13:37:56 by ogeonosi          #+#    #+#             */
-/*   Updated: 2019/10/01 13:54:10 by ogeonosi         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "libft.h"
 
-t_arr				*newlist(const int fd)
+static size_t	find_n(char **str, const int fd)
 {
-	t_arr			*nl;
+	size_t	i;
 
-	if (!(nl = (t_arr *)malloc(sizeof(t_arr))))
-		return (NULL);
-	nl->fd = fd;
-	nl->rest = ft_strnew(BUFF_SIZE);
-	nl->next = NULL;
-	return (nl);
+	i = 0;
+	while (str[fd][i] != '\n' && str[fd][i] != '\0')
+		i++;
+	return (i);
 }
 
-char				*checkrest(char **p_n, char *rest)
+static int		newline(const int fd, char **line, int ret, char **str)
 {
-	char			*str;
+	char	*extra;
+	size_t	i;
 
-	if ((*p_n = ft_strchr(rest, '\n')) != NULL)
+	i = find_n(str, fd);
+	if (str[fd][i] == '\n')
 	{
-		str = ft_strsub(rest, 0, *p_n - rest);
-		ft_strcpy(rest, ++(*p_n));
+		*line = ft_strsub(str[fd], 0, i);
+		extra = ft_strdup(str[fd] + 1 + i);
+		free(str[fd]);
+		str[fd] = extra;
+		if (str[fd][0] == '\0')
+			ft_strdel(&str[fd]);
 	}
-	else
+	else if (str[fd][i] == '\0')
 	{
-		str = ft_strnew(ft_strlen(rest) + 1);
-		ft_strcat(str, rest);
-		ft_strclr(rest);
+		if (ret == BUFF_SIZE)
+			return (get_next_line(fd, line));
+		*line = ft_strdup(str[fd]);
+		ft_strdel(&str[fd]);
 	}
-	return (str);
+	return (1);
 }
 
-int					get_line(const int fd, char **line, char *rest)
+static int		result(int ret, char **str, const int fd, char **line)
 {
-	char			buf[BUFF_SIZE + 1];
-	char			*p_n;
-	char			*tmp;
-	int				rd;
-
-	p_n = NULL;
-	rd = 1;
-	*line = checkrest(&p_n, rest);
-	while (p_n == 0 && ((rd = read(fd, buf, BUFF_SIZE)) != 0))
-	{
-		buf[rd] = '\0';
-		if ((p_n = ft_strchr(buf, '\n')) != NULL)
-		{
-			ft_strcpy(rest, ++p_n);
-			ft_strclr(--p_n);
-		}
-		tmp = *line;
-		if (!(*line = ft_strjoin(tmp, buf)) || rd < 0)
-			return (-1);
-		ft_strdel(&tmp);
-	}
-	return ((ft_strlen(*line) || ft_strlen(rest) || rd) ? 1 : 0);
-}
-
-int					get_next_line(const int fd, char **line)
-{
-	static t_arr	*list;
-	t_arr			*tmp;
-	int				ret;
-
-	if (fd < 0 || line == 0)
+	if (ret < 0)
 		return (-1);
-	if (!list)
-		list = newlist(fd);
-	tmp = list;
-	while (tmp->fd != fd)
+	else if (ret == 0 && (str[fd] == NULL || str[fd] == '\0'))
+		return (0);
+	return (newline(fd, line, ret, str));
+}
+
+int				get_next_line(const int fd, char **line)
+{
+	int			ret;
+	char		buffer[BUFF_SIZE + 1];
+	static char *str[99];
+	char		*tmp;
+
+	if (fd < 0 || line == NULL || read(fd, buffer, 0))
+		return (-1);
+	while ((ret = read(fd, buffer, BUFF_SIZE)))
 	{
-		if (tmp->next == NULL)
-			tmp->next = newlist(fd);
-		tmp = tmp->next;
+		if (str[fd] == NULL)
+			str[fd] = ft_strdup("");
+		buffer[ret] = '\0';
+		tmp = ft_strjoin(str[fd], buffer);
+		free(str[fd]);
+		str[fd] = tmp;
+		if (ft_strchr(buffer, '\n'))
+			break ;
 	}
-	ret = get_line(fd, line, tmp->rest);
-	return (ret);
+	return (result(ret, str, fd, line));
 }

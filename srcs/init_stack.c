@@ -13,7 +13,7 @@ t_stack		*add_head(int num)
 	return (head);
 }
 
-void		tail_add(t_stack **list, t_stack *tail)
+void		add_tail(t_stack **list, t_stack *tail)
 {
 	t_stack	*tmp;
 
@@ -47,7 +47,7 @@ t_stack		*init_stack(char **argv)
 			if (head == NULL)
 				head = add_head(ft_atol(str[j++]));
 			else
-				tail_add(&head, add_head(ft_atol(str[j++])));
+				add_tail(&head, add_head(ft_atol(str[j++])));
 		}
 		free_arg(str);
 	}
